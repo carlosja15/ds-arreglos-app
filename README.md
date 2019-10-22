@@ -48,7 +48,7 @@ Si yo tengo un objeto de la clase Persona y quiero guardar 5 personas en un arre
 
 ```java
 for(i = 0; i < arr.length; i++) {
-  System.out.println("Persona %d: " + arr[i].Nombre, i + 1);
+  System.out.printf("Persona %d: " + arr[i].Nombre + , i + 1);
 }
 ```
 
