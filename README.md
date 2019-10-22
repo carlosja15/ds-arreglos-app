@@ -46,7 +46,7 @@ int elem = ejemplo[1]; // Y para este caso escojo el segundo elemento, posición
 Otro tópico que hay que revisar es el acceso a todos los elementos:
 Si yo tengo un objeto de la clase Persona y quiero guardar 5 personas en un arreglo para luego imprimir sus nombres se haría de la siguiente manera:
 
-```
+```java
 for(i = 0; i < arr.length; i++) {
   System.out.println("Persona %d: " + arr[i].Nombre, i + 1);
 }
